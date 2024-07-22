@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylebattle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <title>Battle!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <evth id="evth">
+            <section>
+                <p id="mh">Your Health: 200</p>
+                <p id="eh">Enemy Health: 500</p>
+            </section>
+            <div class="row">
+                <img src="pics/battlepic.jpg" style="width: 500px; height: 300px;" alt="">
+            </div>
+            <div id="buttons" class="row">
+               <a onclick="normal()" id="normal">Normal atk</a>
+               <a onclick="charge()" id="charge">Charged atk</a>
+               <a onclick="ultimate()" id="ultimate">Ultimate atk</a>
+               
+            </div>
+        </evth>
+            <a id="end" style="display: none;" href="theend.html">GOOD JOB BABY!</a>
+           
+        </div>  
+    </div>
+</body>
+<script src="battle.js"></script>
+</html>

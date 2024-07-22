@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylegames.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <title>QnA</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="game">
+            <qna1 id="qna1">
+            <h2>QnA! What is my fav food?</h2>
+            <div class="row">
+                <a onclick="lose()">Pizza</a>
+                <a onclick="ans1()">Likich</a>
+                <a onclick="lose()">Indomi</a>
+            </div>
+            </qna1>
+
+            <qna2 id="qna2" style="display: none;">   
+            <h2>Fav video game?</h2>
+            <div class="row">
+                <a onclick="lose()">Roblox</a>
+                <a onclick="ans2()">Assassin's creed</a>
+                <a onclick="lose()">Elden ring</a>
+            </div>
+            </qna2>
+
+            <qna3 id="qna3" style="display: none;">
+            <h2>Fav person?</h2>
+            <div class="row">
+                <a onclick="lose()">Wail</a>
+                <a onclick="lose()">Adam</a>
+                <a onclick="ans3()">Pookie</a>
+            </div>
+            </qna3>
+
+            <qna4 id="qna4" style="display: none;">
+            <h2>Fav color?</h2>
+            <div class="row">
+                <a onclick="lose()">Red</a>
+                <a onclick="ans4()">Dark red</a>
+                <a onclick="lose()">Green</a>
+            </div>
+            </qna4>
+
+            <qna5 id="qna5" style="display: none;">
+            <h2>My fav thing about you??</h2>
+            <div class="row">
+                <a onclick="lose()">Autism</a>
+                <a onclick="lose()">Boobs</a>
+                <a onclick="ans5()">Everything</a>
+            </div>
+            </qna5>
+
+            <but id="game3but" style="display: none;" >
+                <a href="game3.html">Next Game!</a> <br>
+                <img style="margin-top: 20px; width: 200px; height: 200px;" src="pics/Cats_.jpg" alt="">
+            </but>
+        </div>
+    </div>
+</body>
+<script src="game2.js"></script>
+</html>

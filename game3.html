@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylegames.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <title>Adventure</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="game">
+            <lore1 id="lore1">
+            <h2>This is you baby</h2>
+                <div class="row">
+                    <img style="width: 200px; height: 200px;" src="pics/nerd.jpg" alt="Can't load">
+                </div>
+                <div class="row">
+                    <a onclick="lore1b()">Next</a>
+                </div>
+            </lore1>
+
+            <lore2 style="display: none;" id="lore2">
+                <h2>You must defeat some enemies for the prize now!</h2>
+                <div class="row">
+                    <a onclick="lore2b()">Next</a>
+                </div>
+            </lore2>
+
+            <lore3 style="display: none;" id="lore3">
+                <h2>By either attacking or answering questions.. go!</h2>
+                <div class="row">
+                    <a href="battle.html">Go!</a>
+                </div>
+            </lore3>
+            
+        </div>
+    </div>
+</body>
+<script src="game3.js"></script>
+</html>
