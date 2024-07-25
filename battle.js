@@ -11,7 +11,7 @@ var normalbutton = document.getElementById("normal");
 var chargebutton = document.getElementById("charge");
 var ultimatebutton = document.getElementById("ultimate");
 var endbutton = document.getElementById("end");
-
+var losebutton = document.getElementById("losebut");
 const enemylist = [
     "Ouch, that hurt!",
     "You'll pay for that!",
@@ -100,7 +100,7 @@ function ultimate(){
 setInterval(function(){
     if(mh <= 0){
         evth.style.display = "none";
-        endbutton.style.display = "block";
+        losebutton.style.display = "block";
     }
     if(eh <= 0){
         evth.style.display = "none";
